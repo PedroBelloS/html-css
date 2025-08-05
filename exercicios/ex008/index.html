@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+</head>
+<body>
+
+<h1>Outras Formatações</h1>
+<h2>Codigo-Fonte/ Pré-Formatação</h2>
+
+
+<p> <code>function gerarNumeroAleatorioInteiro(min, max)</code> </p>
+
+
+
+
+ <pre>
+     <code>
+    unction gerarCodigoAleatorio(comprimento) {
+        const caracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let codigoAleatorio = '';
+        for (let i = 0; i < comprimento; i++) {
+            const indiceAleatorio = Math.floor(Math.random() * caracteres.length);
+            codigoAleatorio += caracteres.charAt(indiceAleatorio);
+        }
+        return codigoAleatorio;
+        }
+        let codigoAleatorio = gerarCodigoAleatorio(10); // Gera um código com 10 caracteres
+        console.log(codigoAleatorio);
+     </code>
+ </pre>
+
+
+<h2>Citações</h2>
+
+
+<p><q><abbr title="Kagurabachi 76">AS ESPADAS MAGICAS PODEM IR ALEM DO SEU LIMITE TEORICO, O REAL LIMITE DE UMA ESPADA MAGICA PODE SER APLIADO INFINITAMENTE A DEPENDER DO USUARIO</abbr></q></p>
+
+<h2>Citações Completas</h2>
+
+<p>Segundo o personagem Hirohiko do Manga Kagurabachi de Takeru Hokazono:</p>
+
+<blockquote cite="https://mangadex.org/chapter/3481989d-e173-450b-ac0c-2d6a000e7345/8">
+Sou um discípulo da Liberdade.
+
+</blockquote>
+
+<h2>Abreviações</h2>
+
+<p>a <abbr title="Espada Magica / Lamina Encantada">Youtou</abbr> mais perigosa é a Shinuchi</p>
+
+
+<h2>Texto Invertido</h2>
+
+<p> <bdo dir="rtl">Eu te apresento o poder da Sakanade, ela inverte o senso de direção do seu oponente e age como um quebra-cabeça mudando a forma que você se move</bdo></p>
+
+
+<p>O <abbr title="Kensei">portador</abbr> que consumiu a <abbr title="Shinuchi">Espada</abbr> e a Espada que consumiu o Portador</p>
+
+<p> <bdo dir="rtl">Socorram-me, subi no ônibus em Marrocos</bdo> </p>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+body{ background-color: #91d3d7;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{ color: #f6f6f6;
+
+}
+
+h1#principal{ color: rgb(255, 255, 255);
+text-align: center;
+background-color: #005b5b;
+
+}
+
+h2{color: #005256;
+
+
+}
+
+.tips{color: #f6f6f6;
+    
+    background-color: #005b5b;
+      
+}
+
+.centro{text-align: center;
+
+
+}

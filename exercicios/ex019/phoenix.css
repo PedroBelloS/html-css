@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body{background-color: #9b7672;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+h1{color: #df8200;
+
+}
+
+h1#principal{
+    color: #ff6f00;
+    text-align: center;
+    background-color: #7a3500;
+}
+
+h2{ color: #752B23;
+
+
+}
+
+.tips{ color: #ff6f00;
+
+
+}
