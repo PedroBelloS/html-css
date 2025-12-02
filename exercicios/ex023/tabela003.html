@@ -12,7 +12,14 @@
     }
 
     table{
-        
+        border-collapse: collapse;
+        width: 300px;
+    }
+
+    td{
+    border: solid 1px black;
+    padding: 10px;
+    text-align: center;
     }
     </style>
 </head>
@@ -22,31 +29,31 @@
 <table>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>A</td>
+<td colspan="2">B</td>
+
+
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td rowspan="3">D</td>
+<td>E</td>
+<td rowspan="2">F</td>
+
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+
+<td>H</td>
+
+
 </tr>
 
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+
+<td>L</td>
+<td>M</td>
+
 </tr> 
 
 </table>
