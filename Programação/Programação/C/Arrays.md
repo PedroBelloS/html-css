@@ -1,0 +1,14 @@
+
+**ESPAÇO NA MEMÓRIA COM TAMANHO FIXO**
+
+O INDÍCE SEMPRE COMEÇA COM 0 
+ POSIÇÃO SEMPRE COMEÇA COM 1 POSIÇÃO 
+ != INDÍCE TAMANHO FIXO
+
+
+
+Vetores são arrays #UNIdimensionais
+
+
+
+[[C]]
